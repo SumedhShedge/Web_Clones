@@ -19,14 +19,14 @@ body{
     margin-right: 0.5rem;
 }
 
-.mainBody{
+.main-body{
     background-color: #121212;
     flex: 1;
     border-radius: 1rem;
     overflow: auto;
 }
 
-.musicPlayer{
+.music-player{
     background-color: black;
     position: fixed;
     bottom: 0;
@@ -49,21 +49,21 @@ a{
     padding: 0.5rem 0.75rem;
 }
 
-.navOption{
+.nav-option{
     line-height: 2.5rem;
     opacity: 0.7;
     padding: 0.5rem 0.75rem;
 }
 
-.navOption:hover{
+.nav-option:hover{
     opacity: 1;
 }
 
-.navOption i{
+.nav-option i{
     font-size: 1.25rem;
 }
 
-.navOption a{
+.nav-option a{
     font-size: 1rem;
     margin-left: 1rem;
 }
@@ -82,7 +82,7 @@ a{
     align-items: center;
 }
 
-.libraryOptions img{
+.library-options img{
     height: 1.25rem;
 }
 
@@ -128,4 +128,39 @@ a{
     margin-top: 0.5rem;
     height: 2rem;
     width: fit-content;
+}
+
+.dark-badge{
+    background-color: black;
+    color: white;
+}
+
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+}
+
+.sticky-nav-icons {
+    margin: 0.75rem;
+}
+
+.sticky-nav-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item{
+    margin-right: 1rem;
+}
+
+@media  (max-width: 1000px){
+    .hide{
+        display: none;
+    }
 }
