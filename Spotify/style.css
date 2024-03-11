@@ -217,6 +217,9 @@ a{
 
 .album{
     width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
 }
 
 .player{
@@ -225,6 +228,9 @@ a{
 
 .controls{
     width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
 }
 
 .player-controls{
@@ -264,6 +270,78 @@ a{
 }
 
 .progress-bar::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: #1bd760;
+    margin-top: -6px;
+}
+
+.album-img{
+    height: 3.5rem;
+    padding-left: 0.35rem;
+}
+
+.album-title{
+    font-size: 1rem;
+    padding-left: 0.35rem;
+}
+
+.album-text{
+    opacity: 0.7;
+    padding-left: 0.35rem;
+}
+
+.album-icon1{
+    height: 1.5rem;
+    padding-left: 0.75rem;
+}
+
+.album-icon2{
+    height: 2.25rem;
+    padding-left: 0.75rem;
+}
+
+.controls-icon1{
+    height: 2.5rem;
+    padding-right: 0.75rem;
+}
+
+.controls-icon2{
+    height: 2rem;
+    padding-right: 0.75rem;
+}
+
+.controls-icon3{
+    height: 1rem;
+    padding-right: 0.75rem;
+}
+
+.controls-icon4{
+    height: 1rem;
+    padding-right: 0.75rem;
+}
+
+.controls-icon5{
+    height: 2.5rem;
+    padding-right: 0.75rem;
+}
+
+.volume-bar{
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding-right: 1rem;
+}
+
+.volume-bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+
+.volume-bar::-webkit-slider-thumb{
     appearance: none;
     height: 1rem;
     width: 1rem;
